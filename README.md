@@ -67,11 +67,12 @@ If you prefer to download them manually, please ensure the following structure:
 - `models/Qwen2.5-VL-3B-Instruct/`
 
 ## 5. Data Preparation
-Organize your data for evaluation:
-- **Images**: Place test images in `data/samples/`.
-- **Labels**: Place corresponding YOLO format `.txt` labels in `data/labels/`.
-  - **Class 0**: Head
-  - **Class 1**: Helmet
+To verify the pipeline, organize your data as follows:
+- **Images**: Place test images in `./data/samples/`. 
+    - *Note*: The provided samples are subsets sampled from the **SFCHD** (Safety Clothing and Helmet Detection) and **SHWD** (Safety Helmet Wearing Dataset). 
+- **Labels**: Place corresponding YOLO format `.txt` labels in `./data/labels/`.
+  - **Class 0**: Head 
+  - **Class 1**: Helmet 
 
 ## 6. Usage
 
