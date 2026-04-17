@@ -1,0 +1,6 @@
+transformers
+accelerate
+qwen_vl_utils
+pillow
+numpy
+huggingface_hub

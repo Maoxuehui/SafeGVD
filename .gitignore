@@ -1,0 +1,22 @@
+# --- Models ---
+# Ignore all model weights and directories
+models/
+
+# --- Python Environment & Cache ---
+__pycache__/
+*.py[cod]
+*$py.class
+.env
+.venv
+env/
+venv/
+ENV/
+
+# --- Results & Logs ---
+# Keep the results directory but ignore its contents
+results/*
+!results/.gitkeep
+
+# --- OS specific files ---
+.DS_Store
+Thumbs.db
